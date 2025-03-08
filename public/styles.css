@@ -1,0 +1,68 @@
+body {
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    font-family: 'Orbitron', sans-serif;
+    color: #ffffff;
+    min-height: 100vh;
+}
+
+.glass-effect {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.neon-btn {
+    background: linear-gradient(45deg, #00ffcc, #00ff99);
+    color: #1a1a2e;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 15px rgba(0, 255, 204, 0.5);
+}
+
+.neon-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 25px rgba(0, 255, 204, 0.8);
+    background: linear-gradient(45deg, #00ff99, #00ffcc);
+}
+
+.input-glow {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.input-glow:focus {
+    border-color: #00ffcc;
+    box-shadow: 0 0 15px rgba(0, 255, 204, 0.3);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.download-card {
+    transition: transform 0.3s ease;
+}
+
+.download-card:hover {
+    transform: scale(1.02);
+}
+
+.hidden {
+    display: none;
+}
+
+.modal-content {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: none;
+}
+
+.btn-close-white {
+    filter: invert(1);
+}
