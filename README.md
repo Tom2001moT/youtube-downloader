@@ -1,4 +1,4 @@
-# Futura YouTube Downloader (Node.js)
+# Futura❄️YouTube Downloader (Node.js)
 
 A modern YouTube downloader with playlist support, built using Node.js, Express.js, and a futuristic frontend.
 
